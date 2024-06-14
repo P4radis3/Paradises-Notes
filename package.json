@@ -1,7 +1,6 @@
 {
   "scripts": {
     "start": "babel-node index --presets=env",
-    "start:test": "node test.js",
     "start:index": "node index.js"
   },
   "dependencies": {
