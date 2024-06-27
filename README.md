@@ -6,8 +6,6 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/P4radis3/Telegram-Bot">View Demo</a>
-    ·
     <a href="https://github.com/P4radis3/Telegram-Bot/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/P4radis3/Telegram-Bot/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -136,7 +134,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Paradise - [E-Mail](mailto:paradis3business@gmail.com)
+Mail - [E-Mail](mailto:paradis3business@gmail.com)
 
 Project Link: [Bot's Repository](https://github.com/P4radis3/Telegram-Bot)
 
