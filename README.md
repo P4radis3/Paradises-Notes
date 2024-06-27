@@ -1,11 +1,7 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/P4radis3/Telegram-Bot">
-  </a>
-
 <h3 align="center">Paradise's Notes</h3>
 
   <p align="center">
@@ -140,13 +136,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Paradise - [@twitter_handle](https://twitter.com/twitter_handle)
+Paradise - [E-Mail](mailto:paradis3business@gmail.com)
 
-Project Link: [https://github.com/P4radis3/Telegram-Bot](https://github.com/P4radis3/Telegram-Bot)
+Project Link: [Bot's Repository](https://github.com/P4radis3/Telegram-Bot)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
