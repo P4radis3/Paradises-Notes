@@ -9,7 +9,10 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 const filePath = path.join(__dirname, 'userdata.json');
 
 let userData = {};
-if (fs.existsSync(filePath)) { const userDataFile = fs.readFileSync(filePath); userData = JSON.parse(userDataFile); }
+if (fs.existsSync(filePath)) {
+    const userDataFile = fs.readFileSync(filePath, 'utf8').trim();
+    if (userDataFile) { userData = JSON.parse(userDataFile); }
+}
 
 const saveToDos = () => { fs.writeFileSync(filePath, JSON.stringify(userData, null, 2)); };
 bot.on('callback_query', query => { bot.answerCallbackQuery(query.id, `${query.data}`); });

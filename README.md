@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-<br />
-<div align="center">
 <h3 align="center">Paradise's Notes</h3>
 
   <p align="center">
@@ -11,7 +9,6 @@
     <a href="https://github.com/P4radis3/Telegram-Bot/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -76,16 +73,15 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/P4radis3/Telegram-Bot.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your TOKEN and Port (which should be 3000 by default) in a config-file named `default.json5`
+3. Enter your TOKEN and Port (which should be 3000 by default) in a config-file named `default.json5`
    ```js
    "port": 3000,
     "token": "YOUR_TOKEN_HERE"
@@ -101,8 +97,6 @@ This is an example of how to list things you need to use the software and how to
 See the [open issues](https://github.com/P4radis3/Telegram-Bot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -120,8 +114,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -129,13 +121,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
 Mail - [E-Mail](mailto:paradis3business@gmail.com)
 
-Project Link: [Bot's Repository](https://github.com/P4radis3/Telegram-Bot)
+Project Link: [Repository](https://github.com/P4radis3/Telegram-Bot)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
