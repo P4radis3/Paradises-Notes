@@ -19,7 +19,7 @@ bot.on('callback_query', query => { bot.answerCallbackQuery(query.id, `${query.d
 
 bot.onText(/\/start/, (message) => {
     const { chat: { id }, from: { username } } = message;
-    bot.sendMessage(id, `Hello, ${username}! Thanks for using my bot! Have a look through the buttons labeled 'IMPORTANT'`, {
+    bot.sendMessage(id, `Hello, ${username}! Thanks for using my bot! Have a look through the buttons buttons below.`, {
         reply_markup: {
             inline_keyboard: [
                 [
@@ -29,7 +29,7 @@ bot.onText(/\/start/, (message) => {
                     },
                     {
                         text: 'Reach out via EMail.',
-                        url: 'https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQQFBzdkwtrNnZXqrRJCXfMnkzbHFqmxnPsbJMRmhfsCNzhQrJQszfwtfMTDhllxVWPQv'
+                        url: 'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMTJMgmdVcVJZkMNhNnxfjJhMNTjthmCQDgqNPCbmFLrFqpqMjSCVpJhSSMkbtPczLtBSG'
                     }
                 ],
                 [
@@ -39,7 +39,7 @@ bot.onText(/\/start/, (message) => {
                     },
                     {
                         text: 'IMPORTANT #2!',
-                        callback_data: 'If you have any recommendations, please contact me!'
+                        callback_data: 'If you have any recommendations, please contact me through my e-mail or use the button above!'
                     }
                 ],
                 [
@@ -65,7 +65,7 @@ bot.onText(/^\/add$/, (message) => {
 
         const isLink = todoItem.startsWith('http');
         if (!userData[userId]) { userData[userId] = []; }
-        userData[userId].push({ text: todoItem, isLink: isLink, completed: false });
+        userData[userId].push({ text: todoItem, isLink: isLink/* , completed: false*/ });
         saveToDos();
         bot.sendMessage(message.chat.id, `Added "${todoItem}" to your to-do list.`);
     });
